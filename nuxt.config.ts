@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
     target: 'static',
     ssr: true,
-    build: {
-        transpile: ['hookable']
+    alias: {
+        'hookable': 'hookable/dist/hookable.mjs'
     },
     generate: {
         fallback: '404.html'
