@@ -1,0 +1,11 @@
+{
+  "main-menu": {
+    "about-me": "About Me",
+    "expertise": "Expertise",
+    "projects": "Projects",
+    "contact": "Contact Me"
+  },
+  "main-footer": {
+    "rights": "All rights reserved"
+  }
+}

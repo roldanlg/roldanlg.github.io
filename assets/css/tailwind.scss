@@ -1,0 +1,36 @@
+@import "google-fonts.css";
+@import "tailwindcss/base.css";
+@import "tailwindcss/screens.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+@import "tailwindcss/variants.css";
+@import "tailwindcss/tailwind.css";
+
+body {
+  background-color: var(--bg-slate-800);
+  color: var(--text-gray-300);
+  overflow: hidden;
+  position: relative;
+}
+.general-font{
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.content-font{
+  font-family: 'Roboto Mono', Courier, monospace;
+}
+.mi-yo{
+  width: 57px;
+  height: 57px;
+  border-width: 2px;
+  background-image: radial-gradient(circle, orange, transparent );
+  background-position: bottom 5px left -228px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  img{
+    filter: brightness(0.85) drop-shadow(2px 5px 20px black);
+    transition: filter 0.5s ease;
+  }
+  img:hover{
+    filter: brightness(1);
+  }
+}

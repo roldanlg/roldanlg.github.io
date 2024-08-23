@@ -1,0 +1,11 @@
+{
+  "main-menu": {
+    "about-me": "Sobre Mí",
+    "expertise": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contáctame"
+  },
+  "main-footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
