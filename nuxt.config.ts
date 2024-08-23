@@ -1,12 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    target: 'static',
+    ssr: true,
+    generate: {
+        fallback: '404.html'
+    },
     app: {
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             title: '¡¡Hola, conóceme!!',
             titleTemplate: '%s %separator %siteName'
-        }
+        },
     },
     compatibilityDate: '2024-04-03',
     devtools: {enabled: true},
@@ -85,7 +90,7 @@ export default defineNuxtConfig({
         enabled: true
     },
     site: {
-        url: 'https://localhost:3000',
+        url: 'https://roldanlg.github.io/',
         name: 'Mi Mismo',
         description: 'Esto se trata de auto lanzarme, ¡Conózcame!',
     }
