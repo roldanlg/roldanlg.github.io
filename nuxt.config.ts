@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
     target: 'static',
     ssr: true,
+    build: {
+        transpile: ['hookable']
+    },
     generate: {
         fallback: '404.html'
     },
